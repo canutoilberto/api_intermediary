@@ -17,7 +17,7 @@ const getDurations = async (req, res) => {
         },
       }
     );
-    return res.status(200).json(duration.data);
+    return res.status(200).json(durations.data);
   } catch (error) {
     return res.status(500).json({ error: error.message });
   }
