@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { getDurations } = require("../requests/durations");
+const { getDurations } = require("../requests/legacy/durations");
 
 const durationRouter = Router();
 

@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { getAbrangencies } = require("../requests/abrangencies");
+const { getAbrangencies } = require("../requests/legacy/abrangencies");
 
 const abrangenciesRouter = Router();
 

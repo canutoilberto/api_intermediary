@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { getProgram } = require("../requests/programs");
+const { getProgram } = require("../requests/legacy/programs");
 
 const programRouter = Router();
 

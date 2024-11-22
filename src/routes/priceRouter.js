@@ -3,6 +3,6 @@ const { getPrice } = require("../requests/price");
 
 const priceRouter = Router();
 
-priceRouter.get("/", getPrice);
+priceRouter.post("/price", getPrice);
 
 module.exports = getPrice;
