@@ -7,10 +7,10 @@ const priceRouter = require("./priceRouter");
 
 const router = Router();
 
-router.use("/pricing/external/grid", gridRouter);
-router.use("/pricing/external/base/programs", programRouter);
-router.use("/pricing/external/base/durations", durationsRouter);
+// router.use("/pricing/external/grid", gridRouter);
+// router.use("/pricing/external/base/programs", programRouter);
+// router.use("/pricing/external/base/durations", durationsRouter);
 router.use("/pricing/external/abrangencies", abrangenciesRouter);
-router.use("/pricing/external/price", priceRouter);
+router.use("/pricing/external/price-list-sf", priceRouter);
 
 module.exports = router;

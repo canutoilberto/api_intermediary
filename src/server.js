@@ -11,7 +11,9 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
+app.use(express.json());
 app.use(routes);
+
 
 app.listen(PORT, () => {
   console.log(`Server running um port: ${PORT} 🚀`);
